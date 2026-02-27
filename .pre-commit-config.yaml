@@ -47,6 +47,13 @@ repos:
   #   hooks:
   #     - id: rubocop
 
+  # --- Go (uncomment if languages includes go) ---
+  # Linting with golangci-lint v2
+  # - repo: https://github.com/golangci/golangci-lint
+  #   rev: v2.1.6
+  #   hooks:
+  #     - id: golangci-lint-full
+
   # --- Secret Detection ---
   # Detects hardcoded secrets, API keys, and credentials in code
   - repo: https://github.com/gitleaks/gitleaks
