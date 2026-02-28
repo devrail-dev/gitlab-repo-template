@@ -54,6 +54,23 @@ repos:
   #   hooks:
   #     - id: golangci-lint-full
 
+  # --- JavaScript/TypeScript (uncomment if languages includes javascript) ---
+  # Linting with ESLint v9 (flat config)
+  # - repo: https://github.com/pre-commit/mirrors-eslint
+  #   rev: v9.27.0
+  #   hooks:
+  #     - id: eslint
+  #       additional_dependencies:
+  #         - eslint
+  #         - "@eslint/js"
+  #         - typescript-eslint
+  #         - typescript
+  # Formatting with Prettier
+  # - repo: https://github.com/pre-commit/mirrors-prettier
+  #   rev: v4.0.0-alpha.8
+  #   hooks:
+  #     - id: prettier
+
   # --- Secret Detection ---
   # Detects hardcoded secrets, API keys, and credentials in code
   - repo: https://github.com/gitleaks/gitleaks
