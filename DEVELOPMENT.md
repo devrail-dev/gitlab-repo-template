@@ -52,8 +52,10 @@ Every DevRail-managed repo exposes these public targets:
 | `make security` | Run security scanners (bandit, tfsec, checkov, etc.) |
 | `make scan` | Run universal scanners (trivy, gitleaks) |
 | `make docs` | Generate documentation (terraform-docs, tool version report) |
+| `make changelog` | Generate CHANGELOG.md from conventional commits (git-cliff) |
 | `make check` | Run all of the above in sequence |
 | `make install-hooks` | Install pre-commit hooks |
+| `make init` | Scaffold config files for declared languages |
 
 ### Naming Rules
 
@@ -273,6 +275,7 @@ type(scope): description
 | `container` | Dev-toolchain container image |
 | `ci` | CI/CD pipeline configuration |
 | `makefile` | Makefile targets and patterns |
+| `changelog` | Changelog generation and git-cliff config |
 | `standards` | DevRail standards documentation |
 
 ### Code Comments
