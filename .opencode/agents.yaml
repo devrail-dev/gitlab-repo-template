@@ -33,6 +33,11 @@ agents:
          the relevant documentation (README, DEVELOPMENT.md, inline docs) in
          the same commit or PR. Do not leave documentation out of sync with
          code.
+      9. Ensure the DevRail Makefile is active. GNU Make prefers GNUmakefile
+         over makefile over Makefile. If the project has a GNUmakefile or
+         makefile, the DevRail Makefile will be silently ignored. Merge
+         project-specific targets into the DevRail Makefile, or add
+         `include Makefile` to the existing GNUmakefile.
 
       Quick Reference:
 
