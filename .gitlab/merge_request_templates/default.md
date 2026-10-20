@@ -19,6 +19,19 @@
 - [ ] `make check` passes
 - [ ] Manual testing completed (describe below)
 
+## Risk and Rollback
+
+<!-- Describe the change risk and the exact rollback path. -->
+
+- Risk: <!-- low / medium / high, with rationale -->
+- Rollback: <!-- revert commit, restore config, or other recovery step -->
+
+## DevRail Compliance
+
+- [ ] `DEVRAIL.md` and `.devrail.yml` remain accurate
+- [ ] The public `make check` contract remains intact
+- [ ] GitLab CI runs the applicable DevRail check path
+
 ## Checklist
 
 - [ ] Code follows project standards (see DEVELOPMENT.md)
